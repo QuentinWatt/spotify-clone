@@ -9,10 +9,10 @@ const MainMenu: React.FC = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Search</Link>
+          <Link to="/search">Search</Link>
         </li>
         <li>
-          <Link to="/">Your library</Link>
+          <Link to="/library">Your library</Link>
         </li>
       </ul>
       <ul className="mt-5">
@@ -20,7 +20,7 @@ const MainMenu: React.FC = () => {
           <Link to="/">Create a playlist</Link>
         </li>
         <li>
-          <Link to="/">Liked Songs</Link>
+          <Link to="/likes">Liked Songs</Link>
         </li>
       </ul>
     </nav>
